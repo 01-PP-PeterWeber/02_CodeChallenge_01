@@ -46,13 +46,31 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 
 // **** Kompaktere Lösung (refactoring) *** //
 
-let zahl1, zahl2, summe;
+// let zahl1, zahl2, summe;
 
-zahl1 = parseInt(prompt("Zahl 1: "));
-zahl2 = parseInt(prompt("Zahl 2: "));
+// zahl1 = parseInt(prompt("Zahl 1: "));
+// zahl2 = parseInt(prompt("Zahl 2: "));
 
-summe = zahl1 + zahl2
+// summe = zahl1 + zahl2
 
-console.log("Die Summe der Zahlen ist: " + summe);
+// console.log("Die Summe der Zahlen ist: " + summe);
+
+// *** noch kürzere Variante (schlecht lesbar) *** //
+
+console.log
+
+(
+
+ "Die Summe ist: " +
+
+(
+
+parseFloat(prompt("Bitte Zahl 1 eingeben")) +
+
+parseFloat(prompt("Bitte Zahl 2 eingeben"))
+
+)
+
+);
 
 
