@@ -21,26 +21,38 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 /** gibt die Summe der beiden Zahlen in die Konsole aus **/
 // console.log("Die Summe der Zahlen ist: " + summe);
 
-let ziffer1, ziffer2, zahl1, zahl2, summe;
+// let ziffer1, ziffer2, zahl1, zahl2, summe;
 
-ziffer1 = prompt("Bitte Zahl 1 eingeben");
-ziffer2 = prompt("Bitte Zahl 2 eingeben");
+// ziffer1 = prompt("Bitte Zahl 1 eingeben");
+// ziffer2 = prompt("Bitte Zahl 2 eingeben");
 
-console.log("Datentyp: " + typeof ziffer1);
-console.log("Datentyp: " + typeof ziffer2);
+// console.log("Datentyp: " + typeof ziffer1);
+// console.log("Datentyp: " + typeof ziffer2);
 
-// Typkonvertierung 1 Ziffer --> Zahl
+// // Typkonvertierung 1 Ziffer --> Zahl
 
-zahl1 = parseFloat(ziffer1);
-zahl2 = parseFloat(ziffer2);
-
-
-
-console.log("Datentyp: " + typeof zahl1);
-console.log("Datentyp: " + typeof zahl2);
+// zahl1 = parseFloat(ziffer1);
+// zahl2 = parseFloat(ziffer2);
 
 
-summe = zahl1 + zahl2;
+
+// console.log("Datentyp: " + typeof zahl1);
+// console.log("Datentyp: " + typeof zahl2);
+
+
+// summe = zahl1 + zahl2;
+
+// console.log("Die Summe der Zahlen ist: " + summe);
+
+// **** Kompaktere Lösung (refactoring) *** //
+
+let zahl1, zahl2, summe;
+
+zahl1 = parseInt(prompt("Zahl 1: "));
+zahl2 = parseInt(prompt("Zahl 2: "));
+
+summe = zahl1 + zahl2
 
 console.log("Die Summe der Zahlen ist: " + summe);
+
 
