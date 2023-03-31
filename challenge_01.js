@@ -29,10 +29,12 @@ ziffer2 = prompt("Bitte Zahl 2 eingeben");
 console.log("Datentyp: " + typeof ziffer1);
 console.log("Datentyp: " + typeof ziffer2);
 
-// Typkonvertierung Ziffer --> Zahl
+// Typkonvertierung 1 Ziffer --> Zahl
 
 zahl1 = parseFloat(ziffer1);
 zahl2 = parseFloat(ziffer2);
+
+
 
 console.log("Datentyp: " + typeof zahl1);
 console.log("Datentyp: " + typeof zahl2);
